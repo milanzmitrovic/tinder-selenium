@@ -25,14 +25,21 @@ class DriverClass:
             sleep(0.5)
 
 
-#%% Instantiating class i.e. opening browser
-d1 = DriverClass()
+if __name__ == '__main__':
+    
+    #%% Instantiating class i.e. opening browser
+    d1 = DriverClass()
+
+    #%% Going to desired page
+    d1.get_to_tinder()
+
+    #%% Performing loop
+    # Right clicking desired number of times
+    d1.loop_right_arrow(1000)
 
 
-#%% Going to desired page
-d1.get_to_tinder()
 
-#%% Performing loop
-# Right clicking desired number of times
-d1.loop_right_arrow(1000)
+
+
+
 
