@@ -5,7 +5,9 @@ from selenium import webdriver
 from selenium.webdriver import Keys, ActionChains
 
 #%% Instantiating webdriver class
-driver = webdriver.Chrome(executable_path='/Users/milanmitrovic/PycharmProjects/tinder-selenium/chromedriver')
+# executable_path should be of form '/Users/tinder-selenium/chromedriver'
+# Chromedriver file does not have any extension
+driver = webdriver.Chrome(executable_path='path_to_chromedriver')
 
 # Getting to desired page
 driver.get('https://tinder.com/')
