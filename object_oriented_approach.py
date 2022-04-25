@@ -9,7 +9,10 @@ from selenium.webdriver import Keys, ActionChains
 #%% Creating class structure that will contain functions and 
 # store data regarding browser instance 
 class DriverClass:
-    def __init__(self, driver_path='/Users/milanmitrovic/PycharmProjects/tinder-selenium/chromedriver'):
+    # driver path should have path to chromedriver
+    # It should be of form like: '/Users/tinder-selenium/chromedriver'
+    # chromedriver file does not have extension
+    def __init__(self, driver_path='path_to_chromedriver'):
         self.drive_path = driver_path
         self.driver = webdriver.Chrome(executable_path=driver_path)
 
