@@ -39,3 +39,9 @@
     - Start swiping by using Tinder script
     - It will show you soon after beginning two notifications. One regarding possibility to give superlike and one other notification (I forgot about what is this second notification). But goot thing is that it will not show it again
     - Enjoy!
+
+- There are two versions of scripts. Both are doing same thing, but writing style is different:
+    - One is written using object oriented approach (more suitable for users experienced with object oriented design principles)
+    - Another is written using procedural approach (more suitable for beginner users)
+
+
